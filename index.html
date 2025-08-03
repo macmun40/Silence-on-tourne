@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Description de la page">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <img src="Images/logo.png" alt="Logo du site" class="logo">
+  </div>
+
+  <div class="header-center">
+    <a href="index.html" class="accueil">Accueil</a>
+  </div>
+
+  <nav class="header-right">
+    <a href="page1.html">Lien1</a>
+    <a href="page2.html">Lien2</a>
+    <a href="page3.html">Lien3</a>
+  </nav>
+</header>
+
+
+
+    <main>
+        <section>
+            <h2>Section principale</h2>
+
+          <div class="container">
+            <div class="box une"> Exemple1</div>
+            <div class="box deux"> Exemple2</div>
+            <div class="box trois"> Exemple3</div>
+            <div class="box quatre"> Exemple4</div>
+            <div class="box cinq"> Exemple5</div>
+            <div class="box six"> Exemple6</div>
+            <div class="box sept"> Exemple7</div>
+            <div class="box huit"> Exemple8</div>
+          </div>
+
+          
+
+            
+        </section>
+
+        <section>
+
+          <table>
+            <caption class="tableau1"> Lise des acteurs</caption>
+                <tr>
+                  <th>Acteur</td>
+                  <th>Film</td>
+                  <th>Ressemblance</td>
+                </tr>
+                <tr>
+                  <td>Bruce Willis</td>
+                  <td>Die hard</td>
+                  <td>Bonne ressemblance</td>
+                </tr>
+                <tr>  
+                  <td>Uma Thurman</td>
+                  <td>Kill Bill</td>
+                  <td>Ressemblance moyenne</td>
+                </tr>
+
+          </table>
+        </section>
+
+        <section>
+
+          <form action="" method="get">
+           <label for="prenom">Votre prénom : </label>  
+           <input type="text" name="prenom" id="prenom" placeholder="Par ex : Julien" size="30">
+          </form>
+
+
+          <form action="" method="get">
+           <label for="age">Votre âge : </label>  
+           <input type="number" name="age" id="age" placeholder="Par ex : 48">
+          </form>
+
+           <form action="" method="get">
+           <label for="mail">Votre adresse mail : </label>  
+           <input type="email" name="mail" id="mail" placeholder="Par ex : jean.dupond@hotmail.com">
+          </form>
+
+           <form action="" method="get">
+           <label for="tel">Votre numéro de téléphone : </label>  
+           <input type="tel" name="tel" id="tel" placeholder="Par ex : 06 55 55 55 55">
+          </form>
+
+            <form action="" method="get">
+           <label for="note">Votre note : </label>  
+           <input type="range" name="note" id="note" min="0" max="100" value="50">
+          </form>
+
+
+            <form action="" method="get">
+           <label for="ddj">Date de naissance : </label>  
+           <input type="date" name="trip-ddj" id="ddj" value="1995-01-01" min="1985-01-01" max="2005-01-01">
+          </form>
+
+          <form action="" method="get">
+           <label for="recherche">Recherche : </label>  
+           <input type="search" name="recherche" id="recherche" >
+           <button>Go !</button>
+          </form>
+
+          <form method="get" action="" class="typejeu">
+
+            <p>
+              A quel type de jeu vous jouez ? :<br>
+              <input type="checkbox" name="familial" id="familial"> <label for="familial">Familial</label><br>
+              <input type="checkbox" name="initie" id="initie"> <label for="initie">Initié</label><br>
+              <input type="checkbox" name="expert" id="expert"> <label for="expert">Expert</label><br>
+
+            </p>
+
+
+          </form>
+
+          <form action="" method="get">
+           <label for="idee">Une idée pour le site ? : </label>  
+           <textarea name="idee" id="idee"> Mettez ici tout ce qui se vous passe par la tête</textarea>
+          </form>
+
+          
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Mon site</p>
+    </footer>
+
+</body>
+</html>

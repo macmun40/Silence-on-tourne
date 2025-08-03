@@ -1,0 +1,251 @@
+* {
+margin: 0;
+font-family: "Montserrat", sans-serif;
+color: white;
+}
+
+
+html, body {
+
+ height: 100%;
+    margin: 0;
+
+}
+
+/* Header principal */
+header {
+  display: flex;
+  align-items: center;       /* Aligne tout verticalement */
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  box-sizing: border-box;
+  /* position: fixed; */
+}
+
+/* Bloc gauche */
+.header-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.header-left h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  margin-top: 5px;
+}
+
+/* Accueil : centré verticalement */
+.header-center {
+  display: flex;
+  margin-right: auto;  /* Pousse Lien1-3 à droite */
+  margin-left: 0px;   /* Espace entre logo et accueil */
+}
+
+.header-center a {
+  text-decoration: none;
+  background-color: #8A1C24;
+  color: white;
+ border-radius: 2px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.header-center a:hover {
+  background: linear-gradient(#8A1C24,#cf4f57);
+  color: white;
+ 
+}
+
+/* Bloc des autres liens à droite */
+.header-right {
+  display: flex;
+  gap: 50px;
+  margin-right: 100px;
+}
+
+.header-right a {
+  text-decoration: none;
+  background-color: #8A1C24;
+  color: white;
+ border-radius: 2px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.header-right a:hover {
+  background: linear-gradient(#8A1C24,#cf4f57);
+  color: white;
+}
+
+footer {
+ display: flex;
+  align-items: center;       /* Aligne tout verticalement */
+  justify-content: space-between;
+  background-color: white;
+  /* padding: 10px 20px; */
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  /* box-sizing: border-box; */
+  margin-top: 30px;
+}
+
+body {
+display: flex;
+    flex-direction: column;
+padding-bottom: 100px
+
+}
+
+main {
+
+  background-color: #8A1C24;
+  flex: 1; /* Le main prend tout l'espace disponible */
+    background-color: #8A1C24;
+    margin-bottom: 20px;
+    padding-bottom: 50px; /* espace entre le contenu et le footer */
+}
+
+.container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+grid-template-rows: 100px 100px 100px 100px 100px;
+margin-top: 50px;
+margin-bottom: 50px;
+gap: 5px;
+justify-content: center;
+margin-inline-start: 10px;
+margin-inline-end: 10px;
+}
+
+.box {
+display: flex;
+background: linear-gradient(to left top, #cf4f57, rgb(116, 4, 4));
+border: solid 3px black;
+border-radius: 20px;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+
+.une {
+
+  grid-column: 1/4;
+
+}
+
+.deux {
+
+  grid-row: 2/4;
+
+}
+
+.cinq {
+
+  grid-column: 2/4;
+
+}
+
+.six {
+
+  grid-column: 1/3;
+
+}
+
+.huit {
+
+  grid-column: 1/4;
+
+}
+
+td, th {
+
+border: 1px black solid;
+  padding: 20px;
+}
+
+table {
+
+  border-collapse: collapse;
+  text-align: center;
+margin: auto;
+margin-bottom: 30px;
+}
+
+th {
+
+  background-color: #cf4f57;
+}
+
+.tableau1 {
+  font-size: large;
+  padding: 20px;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+margin-left: 50px;
+color: black;
+width: auto;
+justify-content: flex-start;
+
+}
+
+.titre-jeu {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: large;
+  font-weight: bold;
+  margin-left: 50px; /* même alignement que les autres éléments */
+}
+
+
+
+input:not([type="checkbox"]) {
+color: black;
+border: solid 1px black;
+padding: 10px;
+width: 300px;
+justify-content: flex-start;
+
+}
+
+label {
+display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0;
+  width: auto;  
+}
+
+
+textarea {
+color: black;
+border: solid 1px black;
+padding: 10px;
+width: 500px;
+height: 200px;
+
+}
+
+button {
+background: linear-gradient(to left top, black, rgb(155, 7, 7));
+width: 100px;
+margin: 20px;
+padding: 20px;
+}
