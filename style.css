@@ -155,7 +155,7 @@ margin-inline-end: 10px;
 display: flex;
 background: linear-gradient(to left top, #cf4f57, rgb(116, 4, 4));
 border: solid 3px black;
-border-radius: 20px;
+border-radius: 20px 5px 10px;
 justify-content: center;
 align-items: center;
 text-align: center;
