@@ -40,8 +40,8 @@ header {
 
 h1 {
 
-  color: black;
-  font-family: "Cinzel", serif;
+  color: black !important;
+  font-family: "Cinzel", serif !important;
 
 }
 
