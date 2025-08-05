@@ -45,6 +45,13 @@ h1 {
 
 }
 
+.header-center2 {
+
+justify-content: center;
+align-items: center;
+
+}
+
 .logo {
   width: 50px;
   height: auto;
