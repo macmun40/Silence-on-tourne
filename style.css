@@ -44,6 +44,12 @@ header {
   margin-top: 5px;
 }
 
+.signature {
+
+width: 200px;
+height: 100px;
+}
+
 /* Accueil : centré verticalement */
 .header-center {
   display: flex;
